@@ -1,0 +1,10 @@
+[
+    {"id": 1, "tipo": "Techo", "descripcion": "Lámpara De Techo Níquel Satinado", "sku": "09978-4", "precio": 1389, "cantFocos": 4},
+    {"id": 2, "tipo": "Pared", "descripcion": "Aplique de Pared Moderno Bronce", "sku": "22125-0", "precio": 669, "cantFocos": 1},
+    {"id": 3, "tipo": "Colgante", "descripcion": "Lámpara Colgante Bronce Cepillado", "sku": "04947-9", "precio": 1889, "cantFocos": 5},
+    {"id": 4, "tipo": "Mesa", "descripcion": "Lámpara De Mesa Níquel Satinado", "sku": "21757-4", "precio": 1489, "cantFocos": 1},
+    {"id": 5, "tipo": "Piso", "descripcion": "Lámpara de Piso Moderna Negro Mate", "sku": "23182-2", "precio": 2699, "cantFocos": 3},
+    {"id": 6, "tipo": "Techo", "descripcion": "Lámpara de Techo Oro Satinado", "sku": "22755-0", "precio": 1333, "cantFocos": 3},
+    {"id": 7, "tipo": "Colgante", "descripcion": "Lámpara Colgante Café Ratán", "sku": "23078-9", "precio": 1889, "cantFocos": 1},
+    {"id": 8, "tipo": "Pared", "descripcion": "Aplique de Pared Níquel Satinado", "sku": "7583-4", "precio": 1190, "cantFocos": 3}
+]

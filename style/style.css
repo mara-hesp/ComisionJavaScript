@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #3a3a3a;
+  }
+  
+a {
+    text-decoration: none;
+  }
+  
+h1 {
+    margin: 20px 0px;
+    text-align: center;
+    font-weight: 600;
+    color: #8c3c96;
+    font-size: 2em;
+  }
+  
+header .banner {
+    background: (linear, left top, right top, from(#ffc904), color-stop(50%, #8c3c96), to(#303091));
+    background: linear-gradient(90deg, #ffc904 0%, #8c3c96 50%, #303091 100%);
+    color: white;
+    font-size: 1.1em;
+    padding: 1em;
+    text-align: center;
+  }
+  
+header .banner p {
+    margin-bottom: 0px;
+  }
+  
+.navbar-light .navbar-brand {
+    color: #8c3c96;
+  }
+  
+.navbar-light .navbar-brand:hover {
+    -webkit-animation-name: logo;
+            animation-name: logo;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
+  
+.navbar-light .navbar-nav .nav-link {
+    color: #8c3c96;
+  }
+  
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc904;
+  }
+  
+ul li {
+    list-style-type: none;
+  }
+  
+@-webkit-keyframes logo {
+    from {
+      color: #8c3c96;
+    }
+    50% {
+      color: #ffc904;
+    }
+    to {
+      color: #303091;
+    }
+  }
+  
+@keyframes logo {
+    from {
+      color: #8c3c96;
+    }
+    50% {
+      color: #ffc904;
+    }
+    to {
+      color: #303091;
+    }
+  }
+
+.btn {
+    background-color: rgb(85, 36, 114);
+    color: rgb(255, 255, 255);
+    font-size: .7em;
+    padding: 5px 30px;
+    border: none;
+    margin-top: 2em;
+  }
+  
+.btn:hover {
+    background-color: rgba(85, 36, 114, 0.781);
+    color: rgb(255, 255, 255);
+  }
+
+h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+  }
+
+h3 {
+    text-align: center;
+    color: rgb(114, 52, 150);
+    font-size: 1.5em;
+  }
+
+p {
+    margin: 0px;
+  }
+
+.instrucciones {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+.card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 1em;
+    width: calc(25% - 15px);
+  }
+
+.card img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+label {
+    font-size: small;
+    margin-top: 10px;
+  }
+
+select {
+    font-size: small;
+  }
+
+.contRes {
+  display: flex;
+  justify-content: center;
+
+}
+
+.resultado {
+  margin: 5px;
+  padding: 1em;
+  width: calc(25% - 15px);
+}
